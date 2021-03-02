@@ -69,5 +69,10 @@ namespace LaboratorioProgramacionUno.VISTA
             dataGridView1.Rows.Add("SI EL PRODUCTO TIENE UN PRECIO MAYOR o IGUAL 101 Y MENOR QUE 150 TENDRÁ UN DESCUENTO DEL 0.20", ">101 and <150");
             dataGridView1.Rows.Add("SI EL PRODUCTO TIENE UN PRECIO MAYOR A 150 TENDRÁ UN DESCUENTO DEL 0.50", "> 150");
         }
+
+        private void label4_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

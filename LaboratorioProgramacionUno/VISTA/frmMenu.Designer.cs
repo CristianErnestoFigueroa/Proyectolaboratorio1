@@ -35,10 +35,11 @@ namespace LaboratorioProgramacionUno
             // 
             // btnUsuario
             // 
-            this.btnUsuario.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnUsuario.Location = new System.Drawing.Point(51, 125);
+            this.btnUsuario.Font = new System.Drawing.Font("Algerian", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnUsuario.Location = new System.Drawing.Point(27, 81);
+            this.btnUsuario.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnUsuario.Name = "btnUsuario";
-            this.btnUsuario.Size = new System.Drawing.Size(329, 170);
+            this.btnUsuario.Size = new System.Drawing.Size(226, 110);
             this.btnUsuario.TabIndex = 0;
             this.btnUsuario.Text = "Usuario";
             this.btnUsuario.UseVisualStyleBackColor = true;
@@ -46,10 +47,11 @@ namespace LaboratorioProgramacionUno
             // 
             // btnAdmin
             // 
-            this.btnAdmin.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnAdmin.Location = new System.Drawing.Point(404, 125);
+            this.btnAdmin.Font = new System.Drawing.Font("Algerian", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAdmin.Location = new System.Drawing.Point(269, 81);
+            this.btnAdmin.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnAdmin.Name = "btnAdmin";
-            this.btnAdmin.Size = new System.Drawing.Size(333, 170);
+            this.btnAdmin.Size = new System.Drawing.Size(237, 110);
             this.btnAdmin.TabIndex = 1;
             this.btnAdmin.Text = "Administradores";
             this.btnAdmin.UseVisualStyleBackColor = true;
@@ -57,11 +59,12 @@ namespace LaboratorioProgramacionUno
             // 
             // frmMenu
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(810, 389);
+            this.ClientSize = new System.Drawing.Size(540, 253);
             this.Controls.Add(this.btnAdmin);
             this.Controls.Add(this.btnUsuario);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "frmMenu";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Menu";
